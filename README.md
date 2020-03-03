@@ -3,15 +3,10 @@ java HttpFileServer NanoHTTPD
 
 运行：
 java -jar lsf.jar 1234 /root/
-
 如:
-
 java -jar lsf.jar					#默认以jar所在目录/端口1234 开启服务
-
 java -jar lsf.jar 8989	 &			#只指定端口号,目录为jar包所在目录 后台运行服务
-
 java -jar lsf.jar 8989 /opt/RHGL	#指定端口号/目录,开启服务,参数位置可调换.
-
 
 **JAVA+nanohttpd实现简易文件服务器 包含上传|下载|删除|新建目录|远程命令功能**
 **操作指南**
